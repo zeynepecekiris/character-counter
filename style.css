@@ -1,5 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px;
+    height: 100vh;
+    margin: 0%;
+    
+
 }
 
 .Container{
@@ -9,4 +22,35 @@ body{
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, 
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+textarea{
+    width: 90%;
+    height: 150px;
+    padding: 15px;
+    resize: none;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    
+}
+
+.Countercontainer{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 6px;
+}
+
+.Countercontainer p {
+    font-size: 18px;
+}
+
+.remainingCounter{
+    color: red;
+
+}
+
+.totalCounter {
+    color:blue
 }
